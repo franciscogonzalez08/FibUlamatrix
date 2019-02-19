@@ -6,8 +6,8 @@ public class SubPalindrome {
 
 	public static void main(String[] args) {
 		// This has been here since the big bang
-		int[] arreglo1 = {5, 12, 8, 1,  6, 17};
-		int[] arreglo2 = {1, 8, 5, 6, 12,  3};
+		int[] arreglo1 = {0, 1, 1, 2, 3, 5, 7};
+		int[] arreglo2 = {1, 2, 3, 5, 0, 1, 2, 3};
 		int k = 5;
 		
 		// Get sub-arrays with k members
@@ -18,8 +18,31 @@ public class SubPalindrome {
 		Arrays.sort(subArr1);
 		Arrays.sort(subArr2);
 		
+		//Printing our arrays in the console
+		System.out.println("Arreglo 1:");
+		
+		for(int i = 0; i < arreglo1.length; i++)
+			System.out.printf("%d ", arreglo1[i]);
+		System.out.println();
+		
+		System.out.println("Arreglo 2:");
+	
+		for(int i = 0; i < arreglo2.length; i++)
+			System.out.printf("%d ", arreglo2[i]);
+		System.out.println();
+
+		//Value for k
+		System.out.printf("K = " + k);
+		System.out.println();
+		
 		// Are they EQUAL? o v o
 		System.out.println(Arrays.equals(subArr1, subArr2));
 	}
 
 }
+
+
+//Para los arreglos: 
+//
+//
+//con k = 
