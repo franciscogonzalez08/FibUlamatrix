@@ -38,11 +38,4 @@ public class SubPalindrome {
 		// Are they EQUAL? o v o
 		System.out.println(Arrays.equals(subArr1, subArr2));
 	}
-
 }
-
-
-//Para los arreglos: 
-//
-//
-//con k = 
