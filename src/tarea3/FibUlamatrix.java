@@ -17,7 +17,7 @@ public class FibUlamatrix {
 		
 		// We'll reserve space for the pseudo-fibonaccis and store them
 		int numUlam;
-		for(int i = 0; i <rows; i++) {
+		for(int i = 0; i < rows; i++) {
 			numUlam = Integer.parseInt(arrUlam[i]);
 			if(numUlam > 20) numUlam = 20; // we're asked not to calculate over 20 tho so yeah
 			fibulamatrix[i] = new int[numUlam];
